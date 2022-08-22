@@ -1,0 +1,19 @@
+name: mc-qsar
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.7=h12debd9_1
+  - pip:
+    - streamlit
+    - biopython==1.79
+    - ipykernel==6.15.0
+    - lightgbm==2.3.1
+    - matplotlib==3.5.2
+    - numpy==1.19.1
+    - pandas==1.0.5
+    - protlearn==0.0.3
+    - scikit-learn==1.1.2
+    - scipy==1.5.4
+    - seaborn==0.11.2
+
